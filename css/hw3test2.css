@@ -1,0 +1,60 @@
+.bluebutton {
+	background-color: rgb(10, 60, 93);
+	color: white;
+	height: 50px;
+	width: 130px;
+	border: none;
+	display: inline-block;
+	margin-left: 90px;
+}
+
+.bluebutton:hover {
+	background: #1D2530;
+}
+
+.yellowbutton2 {
+	background-color: #F8E11C;
+	height: 45px;
+	width: 170px;
+	border: none;
+	position: relative;
+	left: 42%;
+	top: 45%;
+	display: inline-block;
+}
+
+.yellowbutton2:hover {
+	background: #1D2530;
+	color: white;
+}
+
+.amazingfeature {
+	font-size: 15px;
+}
+
+.featurecontent {
+	font-size: 13px;
+	color: gray;
+}
+
+.part5 {
+	height: 900px;
+	width: 1270px;
+	position: relative;
+}
+.inner2 {
+	height: 800px;
+	width: 1270px;
+	margin-left: 125px;
+	background-image: url(../img/glasses.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0px -100px;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	position: absolute;
+	z-index: -1;
+}

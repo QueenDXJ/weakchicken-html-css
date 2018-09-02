@@ -1,0 +1,96 @@
+a:link {
+	color: rgb(220, 226, 235);
+}
+
+a:visited {
+	color: rgb(220, 226, 235);
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: black;
+}
+
+
+/*
+ * Debug Note: https://blog.csdn.net/sangjinchao/article/details/57403634
+ * Content: Why does hover not work?
+ * The defination of yellowbutton1 must be in this css doc
+ */
+
+.yellowbutton1 {
+	border: none;
+	font-size: 10px;
+	margin: 20px 0px;
+	background: #F8E11C;
+	height: 30px;
+}
+
+.yellowbutton1:hover {
+	background: #1D2530;
+	color: white;
+}
+
+.bluebutton {
+	background-color: rgb(10, 60, 93);
+	margin-left: 90px;
+	color: white;
+	height: 50px;
+	width: 130px;
+	border: none;
+	display: inline-block;
+}
+
+.bluebutton:hover {
+	background: #1D2530;
+}
+
+.yellowbutton2 {
+	background-color: #F8E11C;
+	height: 45px;
+	width: 170px;
+	border: none;
+	position: relative;
+	left: 45%;
+	top: 45%;
+	font-weight: 100;
+	display: inline-block;
+}
+
+.yellowbutton2:hover {
+	background: #1D2530;
+	color: white;
+}
+
+.amazingfeature {
+	font-size: 15px;
+}
+
+.featurecontent {
+	font-size: 13px;
+	color: gray;
+}
+
+.part5{
+	padding-left: 125px;
+	position: relative;
+	height: 800px;
+	width: 1270px;
+}
+
+.part5background {
+	height: 800px;
+	width: 1270px;
+	background-image: url(../img/glasses.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+}
