@@ -1,3 +1,7 @@
+body{
+	font-family: arial;
+}
+
 a:link {
 	color: rgb(220, 226, 235);
 }
@@ -36,7 +40,7 @@ a:active {
 
 .bluebutton {
 	background-color: rgb(10, 60, 93);
-	margin-left: 90px;
+	margin-left: 98px;
 	color: white;
 	height: 50px;
 	width: 130px;
@@ -56,6 +60,7 @@ a:active {
 	position: relative;
 	left: 45%;
 	top: 45%;
+	font-weight: 100;
 	display: inline-block;
 }
 
@@ -73,10 +78,16 @@ a:active {
 	color: gray;
 }
 
-.part5 {
+.part5{
+	padding-left: 125px;
+	position: relative;
 	height: 800px;
 	width: 1270px;
-	margin-left: 125px;
+}
+
+.part5background {
+	height: 800px;
+	width: 1270px;
 	background-image: url(../img/glasses.png);
 	background-repeat: no-repeat;
 	background-size: cover;
