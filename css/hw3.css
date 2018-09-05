@@ -98,3 +98,12 @@ a:active {
 	-ms-filter: grayscale(100%);
 	-o-filter: grayscale(100%);
 }
+
+p.featurecontent{
+	font-family: sans-serif;
+	color: gray;
+}
+
+p.amazingfeature{
+	font-weight: 600;
+}
